@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body {
+  background-color: rgb(0, 160, 80);
+}
+
+#lineCamp {
+  border-right: 1px solid #000;
+  position: absolute;
+  height: 100%;
+  width: 50vw;
+  transform: translateY(-11%);
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+  font-size: 8vh;
+  top: 0;
+  gap: 2vw;
+
+}
+
+.bar {
+  --position:50; 
+
+ /*Position*/
+ position: absolute;
+ transform: translateY(-50%);
+ top: calc(var(--position) * 1vh);
+ /*Color*/
+ background-color: #fff;
+ /*Size*/
+ width: 1vw;
+ height: 10vh;
+}
+
+#barL {
+  left: 0;
+}
+#barR {
+  right: 0;
+}
+
+.ball {
+  --x:50;
+  --y:50;
+
+  position: absolute;
+  background-color: #fff;
+  top: calc(var(--x) * 1vh);
+  left: calc(var(--y) * 1vw);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+
+  height: 2.5vw;
+  width: 2.5vh;
+}
