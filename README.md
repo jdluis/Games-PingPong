@@ -22,4 +22,6 @@ Juego de "Ping Pong"
     -Barras inmobiles antes de empezar
     -Bola Inmovil antes de empezar
     -Barra horizontal en el medio con circulo como si fuera un partido
-    //*******(En el futuro puedo hacer la variante de hockey)****/////////////
+    
+    Otros:
+    /*(En el futuro puedo hacer la variante de hockey)*/
